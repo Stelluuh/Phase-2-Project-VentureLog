@@ -1,0 +1,16 @@
+{
+    "HikeLogs": [
+        {
+            "id": 1,
+            "Location": "Mt. Madonna",
+            "Trail": "Madonna Trail",
+            "ImageUrl": "https://i.ytimg.com/vi/wCE2s7ySXdg/maxresdefault.jpg"
+        },
+        {
+            "id": 2,
+            "Location": "Reinhardt Redwood Regional Park",
+            "Trail": "West Ridge Trail",
+            "ImageUrl": "https://media.cntraveler.com/photos/607201361243ed65f16c0e2e/master/w_1600,c_limit/AX1HW0.jpg"
+        }
+    ]
+}
