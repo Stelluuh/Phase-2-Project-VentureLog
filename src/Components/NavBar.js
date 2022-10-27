@@ -3,11 +3,12 @@ import { NavLink } from 'react-router-dom'
 
 function NavBar() {
     return(
-        <div className="nav">
-            <NavLink to="/">Home</NavLink>
+        <nav>
+            <NavLink exact to="/">Home</NavLink>
             <NavLink to="/entries">Entries</NavLink>
             <NavLink to="/new_entry">New Entry</NavLink>
-        </div>
+        </nav>
+    
     )
 }
 
