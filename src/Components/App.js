@@ -1,12 +1,12 @@
 import React from 'react'
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
-import './App.css';
-import Header from './Components/Header'
-import NavBar from './Components/NavBar'
-import Home from './Components/Home'
-import Entry from './Components/Entry'
-import Entries from './Components/Entries'
-import NewEntry from './Components/NewEntry'
+// import './App.css';
+import Header from './Header'
+import NavBar from './NavBar'
+import Home from './Home'
+import Entry from './Entry'
+import Entries from './Entries'
+import NewEntry from './NewEntry'
 
 
 function App() {
@@ -20,17 +20,18 @@ function App() {
 
         <Switch>
 
+          <Route path="/entries/new">
+            <NewEntry/>
+          </Route>
+          
           <Route path="/entries">
             <Entries />
           </Route>
 
-          <Route path="/entry">
+          <Route path="/entry/:id">
             <Entry />
           </Route>
 
-          <Route path="/entries/new">
-            <NewEntry/>
-          </Route>
 
           <Route exact path="/">
             <Home />
