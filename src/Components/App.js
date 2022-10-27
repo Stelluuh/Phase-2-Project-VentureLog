@@ -1,5 +1,5 @@
 import React from 'react'
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
+import {Route, Switch} from 'react-router-dom'
 // import './App.css';
 import Header from './Header'
 import NavBar from './NavBar'
@@ -11,35 +11,34 @@ import NewEntry from './NewEntry'
 
 function App() {
   return (
-    <Router>
-      <div className="App">
-        <NavBar />
-        <hr/>
-        <Header />
-        <hr/>
+    <div className="App">
+      <NavBar />
+      <hr/>
+      <Header />
+      <hr/>
 
-        <Switch>
+      <Switch>
+        <Route path="/new_entry">
+          <NewEntry/>
+        </Route>
+        
+        <Route path="/entries">
+          <Entries />
+        </Route>
 
-          <Route path="/entries/new">
-            <NewEntry/>
-          </Route>
-          
-          <Route path="/entries">
-            <Entries />
-          </Route>
+        <Route path="/entry/:id">
+          <Entry />
+        </Route>
 
-          <Route path="/entry/:id">
-            <Entry />
-          </Route>
+        <Route exact path="/">
+          <Home />
+        </Route>
 
-
-          <Route exact path="/">
-            <Home />
-          </Route>
-          
-        </Switch>
-      </div>
-    </Router>
+        <Route exact path="*">
+          <h1>404 not found</h1>
+        </Route>
+      </Switch>
+    </div>
   );
 }
 
