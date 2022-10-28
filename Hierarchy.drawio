@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="DsdUB31cBgbp273rNDcv" name="Page-1">
-        <mxGraphModel dx="998" dy="333" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="925" dy="333" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -34,7 +34,7 @@
                 <mxCell id="12" style="edgeStyle=orthogonalEdgeStyle;html=1;" parent="1" source="13" target="15" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="13" value="ShowContainer (Parent that holds data)" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="13" value="Entries" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="500" y="160" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="14" value="Sort (By mileage?)" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -43,25 +43,17 @@
                 <mxCell id="18" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="15" target="16">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="15" value="Entries" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="15" value="EntryCard" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="500" y="310" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="19" style="edgeStyle=none;html=1;" edge="1" parent="1" source="16">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="560" y="560" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="16" value="EntryCard" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="16" value="Entry" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="500" y="440" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="20" value="Entry" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="500" y="560" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="21" value="STATE" style="ellipse;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
                     <mxGeometry x="570" y="130" width="80" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="22" value="Add an Edit Feature?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="630" y="580" width="130" height="20" as="geometry"/>
+                    <mxGeometry x="630" y="470" width="130" height="20" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>

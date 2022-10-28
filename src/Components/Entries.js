@@ -4,16 +4,15 @@ import { useState, useEffect } from 'react'
 
 
 function Entries() {
-    const [hikeLogs, setHikeLogs] = useState([])
+    const [entries, setEntries] = useState([])
 
     useEffect(() => {
-        fetch('http://localhost:3001/hikeLogs')
+        fetch('http://localhost:3001/entries')
             .then(resp => resp.json())
-            .then(data => setHikeLogs(data))
+            .then(data => setEntries(data))
     }, [])
 
-    console.log({hikeLogs})
-
+    console.log({entries})
 
     return(
         <div>

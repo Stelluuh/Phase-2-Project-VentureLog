@@ -7,3 +7,9 @@ function EntryCard() {
 }
 
 export default EntryCard;
+
+
+
+
+
+
