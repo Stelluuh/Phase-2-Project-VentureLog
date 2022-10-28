@@ -16,7 +16,12 @@ function Entries() {
 
     return(
         <ul className="cards">{entries.map(entry => {
-            return <EntryCard key={entry.id} entry={entry}/>
+            return (
+                <EntryCard 
+                    key={entry.id} 
+                    entry={entry}
+                />
+            )
         })}</ul>
     )
 }
