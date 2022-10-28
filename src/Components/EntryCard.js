@@ -1,8 +1,17 @@
 import React from 'react';
 
-function EntryCard() {
+function EntryCard({ entry }) {
+    console.log({entry})
+
+    const {Distance, ImageUrl, Location} = entry
+
+
     return(
-        <div>Entry Card</div>
+        <li className='card'>
+            <img src={ImageUrl} alt={Location}/>
+            <h4>{`Location: ${Location}`}</h4>
+            <p>{`Distance: ${Distance}`}</p>
+        </li>
     )
 }
 

@@ -1,5 +1,6 @@
 import React from 'react';
 import { useState, useEffect } from 'react'
+import EntryCard from './EntryCard'
 
 
 
@@ -12,12 +13,11 @@ function Entries() {
             .then(data => setEntries(data))
     }, [])
 
-    console.log({entries})
 
     return(
-        <div>
-            <h3>Entries Component</h3>
-        </div>
+        <ul className="cards">{entries.map(entry => {
+            return <EntryCard key={entry.id} entry={entry}/>
+        })}</ul>
     )
 }
 

@@ -11,7 +11,6 @@ function NewEntry() {
             <label>Location:</label>
             <input
                 type="text"
-                placeholder='Location'
             />
             <label>Trail Name:</label>
             <input
@@ -32,7 +31,7 @@ function NewEntry() {
             <input
                 type="text"
             />
-            
+
             <label>Memory:</label>
             <input
                 type="text"
