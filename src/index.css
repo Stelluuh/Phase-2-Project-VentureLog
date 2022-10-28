@@ -72,3 +72,12 @@ nav a.active {
     width: calc(20% - 2rem);
   }
 
+.entry-item {
+  background-color: white;
+  padding: 2rem;
+  margin: 1rem;
+}
+
+.entry-item img {
+  width: 75%
+}

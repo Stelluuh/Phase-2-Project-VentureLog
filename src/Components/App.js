@@ -19,11 +19,11 @@ function App() {
           <NewEntry/>
         </Route>
         
-        <Route path="/entries">
+        <Route exact path="/entries">
           <Entries />
         </Route>
 
-        <Route path="/entry/:id">
+        <Route path="/entries/:id">
           <Entry />
         </Route>
 
