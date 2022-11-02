@@ -17,10 +17,13 @@ function Entries() {
     return(
         <ul className="cards">{entries.map(entry => {
             return (
-                <EntryCard 
-                    key={entry.id} 
-                    entry={entry}
-                />
+                <div>
+                    <EntryCard 
+                        key={entry.id} 
+                        entry={entry}
+                    />
+                    
+                </div>
             )
         })}</ul>
     )
