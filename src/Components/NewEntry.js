@@ -21,7 +21,16 @@ function NewEntry() {
             "Memory": memory
         }
         // console.log({newItem})
-        
+
+        fetch('http://localhost:3001/entries', {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+            },
+            body: JSON.stringify(newItem)
+        })
+            .then(resp => resp.json())
+            .then(item => console.log({item}))
     }
 
 
