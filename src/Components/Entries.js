@@ -13,6 +13,10 @@ function Entries() {
             .then(data => setEntries(data))
     }, [])
 
+    function handleAddEntry(newEntryItem){
+        console.log({newEntryItem})
+    }
+
 
     return(
         <ul className="cards">{entries.map(entry => {
@@ -21,6 +25,7 @@ function Entries() {
                     <EntryCard 
                         key={entry.id} 
                         entry={entry}
+                        onAddEntry={handleAddEntry}
                     />
                     
                 </div>
