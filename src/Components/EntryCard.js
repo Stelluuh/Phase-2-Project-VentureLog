@@ -9,12 +9,16 @@ function EntryCard({ entry }) {
 
 
     return(
-        <li className='card'>
-            <img src={ImageUrl} alt={Location}/>
-            <h4>{`Location: ${Location}`}</h4>
-            <p>{`Distance: ${Distance}`}</p>
-            <Link to={`entries/${id}`}>View</Link>
-        </li>
+        <div className='card'>
+            <div className='imgContainer'>
+                <img src={ImageUrl} alt={Location}/>
+            </div>
+            <div className="card-content">
+                <h4>{Location}</h4>
+                <p>{`Distance: ${Distance}`}</p>
+                <Link to={`entries/${id}`}>View</Link>
+            </div>
+        </div>
     )
 }
 

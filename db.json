@@ -6,7 +6,7 @@
       "Trail": "Madonna Trail",
       "Distance": "7 miles",
       "Companions": "Jessie, James, Ash",
-      "ImageUrl": "https://i.ytimg.com/vi/wCE2s7ySXdg/maxresdefault.jpg",
+      "ImageUrl": "https://www.cbc.ca/natureofthings/content/legacy/talktalk_1920.jpg",
       "Memory": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi"
     },
     {
@@ -17,6 +17,33 @@
       "Companions": "Appa",
       "ImageUrl": "https://media.cntraveler.com/photos/607201361243ed65f16c0e2e/master/w_1600,c_limit/AX1HW0.jpg",
       "Memory": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptat"
+    },
+    {
+      "Location": "Yosemite",
+      "Trail": "Yosemite Trail",
+      "Distance": "13.2",
+      "Companions": "Josh, Albert, and Appa",
+      "ImageUrl": "https://www.citrusmilo.com/yosemite/joebraun_yosemitefallstrail20.jpg",
+      "Memory": "First hike to Yosemite! Spent a couple nights on trail",
+      "id": 3
+    },
+    {
+      "Location": "Whistler, Canada",
+      "Trail": "Lost Lake Trail",
+      "Distance": "8.2",
+      "Companions": "",
+      "ImageUrl": "https://s3.amazonaws.com/iexplore_web/images/assets/000/001/409/original/Lost_Lake_Park_-James_Wheeler.jpg?1436561518",
+      "Memory": "Beautiful hike towards the lost lake. ",
+      "id": 4
+    },
+    {
+      "Location": "Whistler",
+      "Trail": "Mountain Trail",
+      "Distance": "6",
+      "Companions": "Self",
+      "ImageUrl": "https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&q=80",
+      "Memory": "One of the classic Whistler trails, the heart-pumping Rainbow Lake hike through rain forests and over creeks isn’t for the casual city walker. After three hours of varied terrain, bio-zones, and elevation, you’ll reach picturesque Rainbow Lake Basin. About 5-6 hours round-trip, campers looking for even more solitude can hike a bit further to reach Hanging Lake, a hidden gem in Whistler’s wilderness.",
+      "id": 5
     }
   ]
 }

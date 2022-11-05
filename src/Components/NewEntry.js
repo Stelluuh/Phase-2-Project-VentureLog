@@ -2,12 +2,12 @@ import React from 'react';
 import { useState } from 'react';
 
 function NewEntry() {
-    const [location, setLocation] = useState("")
-    const [trail, setTrail] = useState("")
-    const [distance, setDistance] = useState("")
-    const [companions, setCompanions] = useState("")
-    const [imageUrl, setImageUrl] = useState("")
-    const [memory, setMemory] = useState("")
+    const [location, setLocation] = useState('')
+    const [trail, setTrail] = useState('')
+    const [distance, setDistance] = useState('')
+    const [companions, setCompanions] = useState('')
+    const [imageUrl, setImageUrl] = useState('')
+    const [memory, setMemory] = useState('')
 
     function handleSubmit(e) {
         e.preventDefault();
@@ -20,6 +20,14 @@ function NewEntry() {
             "ImageUrl": imageUrl,
             "Memory": memory
         }
+
+        setLocation('')
+        setTrail('')
+        setDistance('')
+        setCompanions('')
+        setImageUrl('')
+        setMemory('')
+
         // console.log({newItem})
 
         fetch('http://localhost:3001/entries', {
@@ -33,6 +41,7 @@ function NewEntry() {
             .then(item => console.log({item}))
     }
 
+    
     function handleNewLocation(e){
         setLocation(e.target.value)
     }
@@ -61,7 +70,7 @@ function NewEntry() {
 
     return(
       <div className="new_entry_form">
-        <h2>New Entry</h2>
+        <div className="title">New Entry </div>
         <form 
             className="newItem"
             onSubmit={handleSubmit}
@@ -108,13 +117,18 @@ function NewEntry() {
             
             <br/>
             <label>Memory:</label>
-            <input
+            <textarea
+                className="memory"
                 type="text"
                 onChange={handleNewMemory}
                 value={memory}
             />
-
-            <button type="submit">Submit</button>
+            <br/>
+            <button 
+                type="submit"
+                id="submit"
+            >Submit
+            </button>
 
         </form>
 
