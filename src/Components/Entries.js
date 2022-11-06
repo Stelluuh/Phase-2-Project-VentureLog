@@ -17,20 +17,15 @@ function Entries() {
         console.log({newEntryItem})
     }
 
-
     return(
-        <ul className="cards">{entries.map(entry => {
-            return (
-                <div>
-                    <EntryCard 
-                        key={entry.id} 
-                        entry={entry}
-                        onAddEntry={handleAddEntry}
-                    />
-                    
-                </div>
-            )
-        })}</ul>
+        <div className="cards">
+            {entries.map(entry => 
+                <EntryCard 
+                    key={entry.id} 
+                    entry={entry} 
+                    onAddEntry={handleAddEntry}
+                />)}
+        </div>
     )
 }
 

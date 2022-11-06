@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -64,14 +65,6 @@ nav a.active {
     width: calc(33% - 2rem);
   }
 
-  .card {
-    width: calc(25% - 2rem);
-  }
-
-  .card {
-    width: calc(20% - 2rem);
-  }
-
 .entry-item {
   background-color: white;
   padding: 2rem;
@@ -109,4 +102,19 @@ input, textarea {
   background-color: #F0EBCE;
   padding: 0.5rem; 
 }
+
+
+
+.card{
+  overflow: hidden;
+  box-shadow: 0 2px 20px #e1e5ee;
+  border-radius: radius;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  cursor: pointer;
+  transition: transform 200ms ease-in;
+}
+
+
 
