@@ -18,7 +18,7 @@ function Entry() {
 
     return(
         <section>
-            <div className="entry-item">
+            <div className="new-container">
                 <h1>{Location}</h1>
                 <h4>{Trail}</h4>
                 <p>{`Distance: ${Distance}`}</p>

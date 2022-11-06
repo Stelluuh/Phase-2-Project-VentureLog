@@ -17,15 +17,10 @@ function Entries() {
         console.log({newEntryItem})
     }
 
+    const cardList = entries.map(entry => <EntryCard key={entry.id} entry={entry} onAddEntry={handleAddEntry} />)
+
     return(
-        <div className="cards">
-            {entries.map(entry => 
-                <EntryCard 
-                    key={entry.id} 
-                    entry={entry} 
-                    onAddEntry={handleAddEntry}
-                />)}
-        </div>
+        <div className="cards">{cardList}</div>
     )
 }
 
