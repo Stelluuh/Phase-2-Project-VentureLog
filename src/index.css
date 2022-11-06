@@ -42,28 +42,37 @@ nav a.active {
 
 .cards {
   list-style: none;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .card {
   margin: 1rem;
+  width: calc(33% - 2rem);
+  overflow: hidden;
+  box-shadow: 0 2px 20px #e1e5ee;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2)
 }
 
 .card img {
+  margin: auto;
   width: 100%;
+  height: 200px;
+  object-fit:cover
 }
 
 .card button {
   margin-top: 0.5rem;
 }
-
-  .cards {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .card {
-    width: calc(33% - 2rem);
-  }
 
 .entry-item {
   background-color: white;
@@ -102,19 +111,5 @@ input, textarea {
   background-color: #F0EBCE;
   padding: 0.5rem; 
 }
-
-
-
-.card{
-  overflow: hidden;
-  box-shadow: 0 2px 20px #e1e5ee;
-  border-radius: radius;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between; 
-  cursor: pointer;
-  transition: transform 200ms ease-in;
-}
-
 
 
