@@ -40,14 +40,14 @@ nav a.active {
   color: white;
 }
 
-.cards {
+/* .cards {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-}
+} */
 
-.card {
-  margin: 1rem;
+.cards{
+  /* margin: 1rem;
   width: calc(33% - 2rem);
   overflow: hidden;
   box-shadow: 0 2px 20px #e1e5ee;
@@ -56,23 +56,48 @@ nav a.active {
   flex-direction: column;
   justify-content: space-between; 
   cursor: pointer;
-  transition: 0.3s;
+  transition: 0.3s; */
+  display: flex;
+  width: 1040px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
-.card:hover {
+.card{
+  margin: 10px;
+  background-color: #EDE4E0;
+  border-radius: 10px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 300px;
+}
+
+/* .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2)
-}
+} */
 
-.card img {
-  margin: auto;
+.cardImg {
+  /* margin: auto;
   width: 100%;
   height: 250px;
-  object-fit:cover
+  object-fit:cover */
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
 }
 
-.card button {
-  margin-top: 0.5rem;
+.card-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  min-height: 25px;
 }
+
+/* .card button {
+  margin-top: 0.5rem;
+} */
 
 .entry-item {
   background-color: white;

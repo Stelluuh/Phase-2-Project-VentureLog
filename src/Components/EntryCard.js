@@ -10,13 +10,13 @@ function EntryCard({ entry }) {
 
     return(
         <div className='card-container'>
-            <div className='card'>
+            <div className="card">
                 <img className='cardImg' src={ImageUrl} alt={Location}/>
-            </div>
-            <div className="card-content">
-                <h4>{Location}</h4>
-                <p>{`Distance: ${Distance}`}</p>
-                <Link to={`entries/${id}`}>View</Link>
+                <div className="card-content">
+                    <h4>{Location}</h4>
+                    <p>{`Distance: ${Distance}`}</p>
+                    <Link to={`entries/${id}`}>View</Link>
+                </div>
             </div>
         </div>
     )
