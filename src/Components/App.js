@@ -3,7 +3,7 @@ import {Route, Switch} from 'react-router-dom'
 // import './App.css';
 import NavBar from './NavBar'
 import Home from './Home'
-import Entry from './Entry'
+import EntryDetails from './EntryDetails'
 import Entries from './Entries'
 import NewEntry from './NewEntry'
 
@@ -24,7 +24,7 @@ function App() {
         </Route>
 
         <Route path="/entries/:id">
-          <Entry />
+          <EntryDetails />
         </Route>
 
         <Route exact path="/">

@@ -3,7 +3,6 @@ import { useState, useEffect } from 'react'
 import EntryCard from './EntryCard'
 
 
-
 function Entries() {
     const [entries, setEntries] = useState([])
 
@@ -17,7 +16,13 @@ function Entries() {
         console.log({newEntryItem})
     }
 
-    const cardList = entries.map(entry => <EntryCard key={entry.id} entry={entry} onAddEntry={handleAddEntry} />)
+    const cardList = entries.map(entry => (
+        <EntryCard 
+            key={entry.id} 
+            entry={entry} 
+            onAddEntry={handleAddEntry} 
+        />
+    ))
 
     return(
         <div className="cards">{cardList}</div>

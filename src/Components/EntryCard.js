@@ -15,7 +15,7 @@ function EntryCard({ entry }) {
                 <div className="card-content">
                     <h4>{Location}</h4>
                     <p>{`Distance: ${Distance}`}</p>
-                    <Link to={`entries/${id}`}>View</Link>
+                    <Link to={`entries/${id}`}>Read Entry</Link>
                 </div>
             </div>
         </div>
