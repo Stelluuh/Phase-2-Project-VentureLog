@@ -1,5 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
+import { useHistory } from 'react-router-dom'
 
 function NewEntry() {
     const [location, setLocation] = useState('')
@@ -8,6 +9,7 @@ function NewEntry() {
     const [companions, setCompanions] = useState('')
     const [imageUrl, setImageUrl] = useState('')
     const [memory, setMemory] = useState('')
+    const history = useHistory()
 
     function handleSubmit(e) {
         e.preventDefault();
@@ -27,6 +29,9 @@ function NewEntry() {
         setCompanions('')
         setImageUrl('')
         setMemory('')
+        
+        //after form submit, re-direct page to list of entries
+        history.push('/entries')
 
         // console.log({newItem})
 
@@ -43,7 +48,7 @@ function NewEntry() {
 
     return(
       <div className="new_entry_form">
-        <div className="title">New Entry </div>
+        <div className="title">Write Your Adventure!</div>
         <form 
             className="newItem"
             onSubmit={handleSubmit}
@@ -100,7 +105,8 @@ function NewEntry() {
             <button 
                 type="submit"
                 id="submit"
-            >Submit
+            >
+                Submit
             </button>
 
         </form>

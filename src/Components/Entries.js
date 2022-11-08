@@ -12,20 +12,20 @@ function Entries() {
             .then(data => setEntries(data))
     }, [])
 
-    function handleAddEntry(newEntryItem){
-        console.log({newEntryItem})
-    }
+    // function handleAddEntry(newEntryItem){
+    //     console.log({newEntryItem})
+    // }
 
-    const cardList = entries.map(entry => (
+    const entriesList = entries.map(entry => (
         <EntryCard 
             key={entry.id} 
             entry={entry} 
-            onAddEntry={handleAddEntry} 
+            // onAddEntry={handleAddEntry} 
         />
     ))
 
     return(
-        <div className="cards">{cardList}</div>
+        <div className="cards">{entriesList}</div>
     )
 }
 
