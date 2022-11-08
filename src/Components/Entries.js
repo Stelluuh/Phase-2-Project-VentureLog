@@ -12,15 +12,11 @@ function Entries() {
             .then(data => setEntries(data))
     }, [])
 
-    // function handleAddEntry(newEntryItem){
-    //     console.log({newEntryItem})
-    // }
 
     const entriesList = entries.map(entry => (
         <EntryCard 
             key={entry.id} 
             entry={entry} 
-            // onAddEntry={handleAddEntry} 
         />
     ))
 

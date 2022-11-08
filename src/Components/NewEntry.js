@@ -15,12 +15,12 @@ function NewEntry() {
         e.preventDefault();
         // console.log(e.target.location.value)
         const newItem = {
-            "Location": location,
-            "Trail": trail,
-            "Distance": distance,
-            "Companions": companions,
-            "ImageUrl": imageUrl,
-            "Memory": memory
+            Location: location,
+            Trail: trail,
+            Distance: distance,
+            Companions: companions,
+            ImageUrl: imageUrl,
+            Memory: memory
         }
 
         setLocation('')
@@ -42,8 +42,6 @@ function NewEntry() {
             },
             body: JSON.stringify(newItem)
         })
-            .then(resp => resp.json())
-            .then(item => console.log({item}))
     }
 
     return(
