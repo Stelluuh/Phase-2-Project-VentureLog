@@ -1,6 +1,6 @@
 import React from 'react'
 import {Route, Switch} from 'react-router-dom'
-import '../App.css';
+import '../stylesheets/App.css';
 import NavBar from './NavBar'
 import Home from './Home'
 import EntryDetails from './EntryDetails'
@@ -12,7 +12,6 @@ function App() {
   return (
     <div className="app">
       <NavBar />
-      <hr/>
 
       <Switch>
         <Route path="/new_entry">

@@ -1,0 +1,25 @@
+nav {
+    background-color: #4444;
+  }
+  
+  nav a {
+    display: inline-block;
+    padding: 0.25rem;
+    margin: 1rem;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #fff;
+    border-bottom: 2px solid #A27B5C;
+    transition: 0.1s;
+  }
+  
+  nav a:hover,
+  nav a:active {
+    color: #A27B5C;
+    border-bottom: 2px solid #F6E3C5;
+  }
+  
+  nav a.active {
+    background-color: #A27B5C;
+    color: white;
+  }

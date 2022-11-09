@@ -11,7 +11,7 @@ function EntryDetails() {
         fetch(`http://localhost:3001/entries/${params.id}`) // here we are fetching the entry information based on this id.
         .then(res => res.json())
         .then(data => setEntry(data))
-    }, [params.id])
+    }, [params.id])  
     
     const {Location, Trail, Distance, Companions, ImageUrl, Memory} = entry
 

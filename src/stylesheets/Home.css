@@ -1,0 +1,17 @@
+.home{
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0, 0, 0, 0.01
+    )), url('/Users/stellamunson/Development/code/projects/phase-2/venture-log/images/andrew-neel-aebPbwAWjDs-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* keeps background image steady during scroll*/
+    height: 100vh;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+  }
+
+  .home h1{
+    margin-top: 0;;
+  }
+
