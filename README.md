@@ -1,4 +1,16 @@
 
+# VentureLog
+
+VentureLog is an online hikers journal that allows outdoor enthusiasts to document and share their adventures throughout the world. It allows users to document the location, the name of the trail, mileage, companions that joined their adventure, a memory section and an area to upload a picture or a drawing they recorded along the way. All entries will be saved and listed as cards for a quick view of all completed hikes.
+
+## Installation
+
+1. Fork and clone this project
+2. Locate the project in your terminal
+3. Open the project in your preferred source-code editor (ex: VS Code)
+4. Run npm install
+5. Run the json-server: npm run server
+6. Run Reacter server: npm start
 
 ### RESOURCES
 https://codepen.io/eyupucmaz/pen/oNbeXOb - CSS for card entries.
