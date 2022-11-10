@@ -12,32 +12,6 @@ code {
     monospace;
 }
 
-/* nav {
-  background-color: #DFE8CC;
-}
-
-nav a {
-  display: inline-block;
-  padding: 0.25rem;
-  margin: 1rem;
-  text-decoration: none;
-  font-size: 1.2em;
-  color: #3F4E4F;
-  border-bottom: 2px solid #A27B5C;
-  transition: 0.1s;
-}
-
-nav a:hover,
-nav a:active {
-  color: #A27B5C;
-  border-bottom: 2px solid #F6E3C5;
-}
-
-nav a.active {
-  background-color: #A27B5C;
-  color: white;
-} */
-
 
 .cards{
   display: flex;

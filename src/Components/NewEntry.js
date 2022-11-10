@@ -47,50 +47,51 @@ function NewEntry() {
     return(
       <div className="new_entry_form">
         <div className="title">Write Your Adventure!</div>
-        <form 
-            className="newItem"
-            onSubmit={handleSubmit}
-        >
-            <label>Location:</label>
-            <input
-                type="text"
-                value={location}
-                onChange={e => setLocation(e.target.value)}
-            />
-            
-            <br/>
-            <label>Trail Name:</label>
-            <input
-                type="text"
-                value={trail}
-                onChange={e => setTrail(e.target.value)}
-            />
-            
-            <br/>
-            <label>Distance:</label>
-            <input
-                type="text"
-                value={distance}
-                onChange={e => setDistance(e.target.value)}
+        <form className="newItem" onSubmit={handleSubmit}>
+            <div className="top-container">
+                <label>Location:</label>
+                <input
+                    type="text"
+                    value={location}
+                    onChange={e => setLocation(e.target.value)}
+                />
+                
+                <br/>
+                <label>Trail Name:</label>
+                <input
+                    type="text"
+                    value={trail}
+                    onChange={e => setTrail(e.target.value)}
+                />
+                
+                <br/>
+                <label>Distance:</label>
+                <input
+                    type="text"
+                    value={distance}
+                    onChange={e => setDistance(e.target.value)}
 
-            />
-            
-            <br/>
-            <label>Companions:</label>
-            <input
-                type="text"
-                value={companions}
-                onChange={e => setCompanions(e.target.value)}
-            />
-            
-            <br/>
-            <label>Image:</label>
-            <input
-                type="text"
-                value={imageUrl}
-                onChange={e => setImageUrl(e.target.value)}
-            />
-            
+                />
+                
+                <br/>
+                <label>Companions:</label>
+                <input
+                    type="text"
+                    value={companions}
+                    onChange={e => setCompanions(e.target.value)}
+                />
+            </div>
+            <div className="middle-container">
+                <br/>
+                <label>Image:</label>
+                <input
+                    type="text"
+                    value={imageUrl}
+                    onChange={e => setImageUrl(e.target.value)}
+                />
+            </div>
+
+            <div className="bottom-container">
             <br/>
             <label>Memory:</label>
             <textarea
@@ -106,6 +107,7 @@ function NewEntry() {
             >
                 Submit
             </button>
+            </div>
 
         </form>
 

@@ -9,17 +9,19 @@ nav {
     text-decoration: none;
     font-size: 1.2em;
     color: #fff;
-    border-bottom: 2px solid #A27B5C;
+    border-bottom: 2px solid #2C3639;
     transition: 0.1s;
+    border-radius: 10px;
   }
   
   nav a:hover,
   nav a:active {
-    color: #A27B5C;
-    border-bottom: 2px solid #F6E3C5;
+    color: #fff;
+    border: 2px solid #2C3639;
+    background-color: #2C3639;
   }
   
   nav a.active {
-    background-color: #A27B5C;
-    color: white;
+    background-color:#D0C9C0;
+    color: #2C3639;
   }
