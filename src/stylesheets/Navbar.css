@@ -8,7 +8,7 @@ nav {
     margin: 1rem;
     text-decoration: none;
     font-size: 1.2em;
-    color: #fff;
+    color: rgb(68, 59, 59);
     border-bottom: 2px solid #2C3639;
     transition: 0.1s;
     border-radius: 10px;
@@ -22,6 +22,6 @@ nav {
   }
   
   nav a.active {
-    background-color:#D0C9C0;
+    background-color:rgba(255, 255, 255, 0.318);
     color: #2C3639;
   }

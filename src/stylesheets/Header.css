@@ -1,6 +1,18 @@
-h1{
-    background-color:transparent;
+.header h1{
+    background-color:#2C3639;
+    background-color: rgba(255, 255, 255, 0.318);
     margin-top:100px;
     position: relative;
-    top:20px;
+    top:35px;
+    display: inline-block;
+    padding: 0.25rem;
+    margin: 1rem;
+    text-decoration: none;
+    font-size: 4.2em;
+    color: rgb(68, 59, 59);
+    /* border: 2px solid #2C3639; */
+    transition: 0.1s;
+    border-radius: 8px;
+    padding: 10px 25px;
+    letter-spacing: 10px;
 }

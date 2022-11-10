@@ -6,7 +6,7 @@
     background-repeat: no-repeat;
     background-attachment: fixed; /* keeps background image steady during scroll*/
     height: 100vh;
-    color: #fff;
+    color: rgb(68, 59, 59);
     text-align: center;
     margin: 0;
   }
