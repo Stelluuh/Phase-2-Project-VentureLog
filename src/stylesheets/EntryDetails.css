@@ -1,9 +1,47 @@
 .entry{
     max-width: 800px;
     margin: auto;
-    /* margin-top: 0; */
+    margin-top: 10;
     border: 2px solid #9BA17B;
     border-radius: 8px;
     padding: 2rem;
 }
 
+
+.photo-memory{
+    margin-top: 50px;
+    font-variant: small-caps;
+    margin-left: 12px;
+}
+
+.image{
+    width:750px;
+    text-align: center;
+}
+
+.top{
+    column-count: 2;
+    border: 2px solid;
+    border-color: #9BA17B;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.middle{
+    column-count: 2;
+    border: 2px solid;
+    border-radius: 8px;
+    border-color: #9BA17B;
+    padding: 10px;
+    margin: 10px;
+}
+
+.bottom{
+    border: 2px solid;
+    border-color: #9BA17B;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 20px;
+}

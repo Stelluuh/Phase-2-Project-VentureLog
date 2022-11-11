@@ -19,15 +19,16 @@ function EntryDetails() {
     return(
         <section>
             <div className="entry">
-                <div className='top-container'>
+                <div className='top'>
                     <p className='location'>{`Location: ${Location}`}</p>
-                    <p className='trail'>{Trail}</p>
+                    <p className='trail'>{`Trail: ${Trail}`}</p>
                 </div>
-                <div className='middle-container'>
+                <div className='middle'>
                     <p className='distance'>{`Distance: ${Distance}`}</p>
                     <p className='companions'>{`Companions: ${Companions}`}</p>
                 </div>
-                <div className='bottom-container'>
+                <div className="photo-memory">Photo Memory:</div>
+                <div className='bottom'>
                     <img className='image'src={ImageUrl} alt={Location}/>
                     <p className='memory'>{Memory}</p>
                 </div>
