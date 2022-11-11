@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import '../stylesheets/Card.css'
 
 function EntryCard({ entry }) {
     // console.log({entry})

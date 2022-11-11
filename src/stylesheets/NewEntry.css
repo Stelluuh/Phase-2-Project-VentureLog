@@ -1,8 +1,8 @@
 
 .form-container{
-    background-image: url('/Users/stellamunson/Development/code/projects/phase-2/venture-log/images/plant.jpg');
+    background-image: linear-gradient(rgba(34, 69, 32, 0.2), rgba(105, 12, 12, 0.01)),url('/Users/stellamunson/Development/code/projects/phase-2/venture-log/images/plant.jpg');
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-position: center;
     background-size: contain;
     margin-top: 0px;
