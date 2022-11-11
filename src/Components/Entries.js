@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react'
 import EntryCard from './EntryCard'
 
 
+
 function Entries() {
     const [entries, setEntries] = useState([])
 

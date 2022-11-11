@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import '../stylesheets/Card.css'
+import '../stylesheets/EntryDetails.css'
 
 function EntryDetails() {
     const [entry, setEntry] = useState('')
@@ -19,12 +19,18 @@ function EntryDetails() {
     return(
         <section>
             <div className="entry">
-                <h1>{Location}</h1>
-                <h4>{Trail}</h4>
-                <p>{`Distance: ${Distance}`}</p>
-                <p>{`Companions: ${Companions}`}</p>
-                <img src={ImageUrl} alt={Location}/>
-                <p>{Memory}</p>
+                <div className='top-container'>
+                    <p className='location'>{`Location: ${Location}`}</p>
+                    <p className='trail'>{Trail}</p>
+                </div>
+                <div className='middle-container'>
+                    <p className='distance'>{`Distance: ${Distance}`}</p>
+                    <p className='companions'>{`Companions: ${Companions}`}</p>
+                </div>
+                <div className='bottom-container'>
+                    <img className='image'src={ImageUrl} alt={Location}/>
+                    <p className='memory'>{Memory}</p>
+                </div>
             </div>
         </section>
     )
