@@ -1,0 +1,102 @@
+
+.form-container{
+    background-image: url('/Users/stellamunson/Development/code/projects/phase-2/venture-log/images/plant.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: contain;
+    margin-top: 0px;
+    
+}
+
+.entry-item {
+    background-color: white;
+    padding: 2rem;
+    margin: 1rem;
+  }
+  
+  .entry-item img {
+    width: 75%
+  }
+  
+  
+  .new_entry_form{
+    max-width: 800px;
+    margin: 5rem auto;
+    border: 2px solid #9BA17B;
+    border-radius: 8px;
+    padding: 2rem;
+    
+  }
+  
+  .title {
+    text-align: center;
+    letter-spacing: 10px;
+    font-variant: small-caps;
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+  
+  label {
+    display: block;
+  }
+  
+  input, textarea {
+    display: block;
+    width: 90%;
+    height: 25px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    background-color: transparent;
+  }
+
+  input:focus {
+    background-color: #fff;
+    outline: none;
+    
+  }
+
+
+  
+  #submit{
+    border: 0;
+    background-color: #F0EBCE;
+    padding: 0.5rem; 
+  }
+
+
+.top-container{
+    column-count: 2;
+    border: 2px solid;
+    border-color: #9BA17B;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.middle-container{
+    border: 2px solid;
+    border-radius: 8px;
+    border-color: #9BA17B;
+    padding: 10px;
+    margin: 10px;
+}
+
+.bottom-container{
+    border: 2px solid;
+    border: 2px solid;
+    border-color: #9BA17B;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 100px;
+}
+
+.memory{
+    height: 150px;
+    width: 98%;
+}
+
+
