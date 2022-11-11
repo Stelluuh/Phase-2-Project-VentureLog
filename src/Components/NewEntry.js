@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { useHistory } from 'react-router-dom'
 import '../stylesheets/NewEntry.css'
 
+
 function NewEntry() {
     const [location, setLocation] = useState('')
     const [trail, setTrail] = useState('')
