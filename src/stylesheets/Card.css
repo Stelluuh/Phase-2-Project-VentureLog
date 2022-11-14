@@ -34,3 +34,7 @@
     margin-top: 0.5rem;
   }
   
+  .card-content button {
+    background-color:transparent;
+    border-radius: 8px;
+  }

@@ -14,10 +14,10 @@ function EntryCard({ entry }) {
             <div className="card">
                 <img className='cardImg' src={ImageUrl} alt={Location}/>
                 <div className="card-content">
+                    <Link to={`entries/${id}`}>Read Entry</Link>
                     <h4>{Location}</h4>
                     <p>{`Distance: ${Distance}`}</p>
-                    <Link to={`entries/${id}`}>Read Entry</Link>
-                    <button className='delete-btn'>🗑️</button>
+                    <button className='delete-btn'> delete </button>
                 </div>
             </div>
         </div>
