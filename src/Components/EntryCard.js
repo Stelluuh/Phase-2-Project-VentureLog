@@ -17,6 +17,7 @@ function EntryCard({ entry }) {
                     <h4>{Location}</h4>
                     <p>{`Distance: ${Distance}`}</p>
                     <Link to={`entries/${id}`}>Read Entry</Link>
+                    <button className='delete-btn'>🗑️</button>
                 </div>
             </div>
         </div>
