@@ -14,12 +14,19 @@ function Entries() {
     }, [])
 
 
+    function handleDeleteCard(deletedCard) {
+        const updatedEntries = entries.filter(entry => entry.id !== deletedCard.id);
+        setEntries(updatedEntries)
+    }
+
     const entriesList = entries.map(entry => (
         <EntryCard 
             key={entry.id} 
-            entry={entry} 
+            entry={entry}
+            onDeleteCard={handleDeleteCard} 
         />
     ))
+
 
     return(
         <div className="cards">{entriesList}</div>
