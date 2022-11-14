@@ -87,7 +87,7 @@ function NewEntry() {
                     </div>
                     <div className="middle-container">
                         <br/>
-                        <label>Image:</label>
+                        <label>Image Url:</label>
                         <input
                             className='image'
                             type="url"

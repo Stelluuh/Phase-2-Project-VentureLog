@@ -1,7 +1,7 @@
 
 # VentureLog
 
-VentureLog is an online hikers journal that allows outdoor enthusiasts to document and share their adventures throughout the world. It allows users to document the location, the name of the trail, mileage, companions that joined their adventure, a memory section and an area to upload a picture or a drawing they recorded along the way. All entries will be saved and listed as cards for a quick view of all completed hikes.
+VentureLog is an online hikers journal that allows outdoor enthusiasts to document their adventures. It allows users to document the location, the name of the trail, mileage, companions that joined their adventure, a memory section and an area to upload a picture or a drawing they recorded along the way. All entries will be saved and listed as cards for a quick view of all completed hikes.
 
 ## Installation
 
@@ -14,6 +14,10 @@ VentureLog is an online hikers journal that allows outdoor enthusiasts to docume
 
 ### RESOURCES
 https://codepen.io/eyupucmaz/pen/oNbeXOb - CSS for card entries.
+https://unsplash.com/ - images used for each card
+https://learning.flatironschool.com/courses/5301 
+https://developer.mozilla.org/en-US/
+
 
 
 # Getting Started with Create React App
