@@ -12,6 +12,14 @@ VentureLog is an online hikers journal that allows outdoor enthusiasts to docume
 5. Run the json-server: npm run server
 6. Run Reacter server: npm start
 
+## How To
+1. Use the Navbar to access the Entry Logs and The New entry form
+2. On the New entry form, fill out the sections to document your hike and include an image URL for a photo memory.
+3. Once everything is filled in, hit the submit button. 
+4. In the Entries section, you can view all journal entries you have written. 
+5. Click the Read Entry link to view more details of each card.
+6. To delete, simply click the delete button at the bottom of the entry card.
+
 ### RESOURCES
 https://codepen.io/eyupucmaz/pen/oNbeXOb - CSS for card entries.
 https://unsplash.com/ - images used for each card
