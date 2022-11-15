@@ -22,7 +22,7 @@ function EntryCard({ entry, onDeleteCard }) {
                 <div className="card-content">
                     <Link to={`entries/${id}`}>Read Entry</Link>
                     <h4>{Location}</h4>
-                    <p>{`Distance: ${Distance} miles`}</p>
+                    <p>{`Distance: ${Distance}`}</p>
                     <button className='delete-btn' onClick={handleDeleteButton}> delete </button>
                 </div>
             </div>

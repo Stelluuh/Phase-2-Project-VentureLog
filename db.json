@@ -10,15 +10,6 @@
       "Memory": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi"
     },
     {
-      "id": 2,
-      "Location": "John Muir Wilderness",
-      "Trail": "Big Pine Lakes Trail",
-      "Distance": "15.2 miles",
-      "Companions": "Appa",
-      "ImageUrl": "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMjg1ODAyNTAvYTk1M2FlYTA3YjdmYTA1YTBmYzA1Y2VmZTMxZDI4ZjcuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJ3ZWJwIiwicmVzaXplIjp7IndpZHRoIjoxMDgwLCJoZWlnaHQiOjcwMCwiZml0IjoiY292ZXIifSwicm90YXRlIjpudWxsfX0=",
-      "Memory": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptat"
-    },
-    {
       "Location": "Yosemite National Park",
       "Trail": "Clouds Rest Trail",
       "Distance": "12.2",
@@ -35,24 +26,6 @@
       "ImageUrl": "https://s3.amazonaws.com/iexplore_web/images/assets/000/001/409/original/Lost_Lake_Park_-James_Wheeler.jpg?1436561518",
       "Memory": "Beautiful hike towards the lost lake. ",
       "id": 4
-    },
-    {
-      "Location": "Whistler",
-      "Trail": "Mountain Trail",
-      "Distance": "6",
-      "Companions": "Self",
-      "ImageUrl": "https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&q=80",
-      "Memory": "One of the classic Whistler trails, the heart-pumping Rainbow Lake hike through rain forests and over creeks isn’t for the casual city walker. After three hours of varied terrain, bio-zones, and elevation, you’ll reach picturesque Rainbow Lake Basin. About 5-6 hours round-trip, campers looking for even more solitude can hike a bit further to reach Hanging Lake, a hidden gem in Whistler’s wilderness.",
-      "id": 5
-    },
-    {
-      "Location": "Mt. Location",
-      "Trail": "The Trail",
-      "Distance": "4.5",
-      "Companions": "Dog",
-      "ImageUrl": "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvNTM4MzM1MTkvMTgzYjY2NWFmMjIyZjExODMyM2YwYWE2ZjNiNWRkMGEuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==",
-      "Memory": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat",
-      "id": 6
     }
   ]
 }
