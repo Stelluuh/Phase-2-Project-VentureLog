@@ -16,16 +16,7 @@
       "Companions": "Josh, Albert, and Appa",
       "ImageUrl": "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzg5NDMwNjQvZWRjNDhiN2QyM2VmYWFmZTEyOGY2OTdkOGE5MTEyN2MuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJ3ZWJwIiwicmVzaXplIjp7IndpZHRoIjoxMDgwLCJoZWlnaHQiOjcwMCwiZml0IjoiY292ZXIifSwicm90YXRlIjpudWxsfX0=",
       "Memory": "First hike to Yosemite! Spent a couple nights on trail",
-      "id": 3
-    },
-    {
-      "Location": "Whistler, Canada",
-      "Trail": "Lost Lake Trail",
-      "Distance": "8.2",
-      "Companions": "",
-      "ImageUrl": "https://s3.amazonaws.com/iexplore_web/images/assets/000/001/409/original/Lost_Lake_Park_-James_Wheeler.jpg?1436561518",
-      "Memory": "Beautiful hike towards the lost lake. ",
-      "id": 4
+      "id": 2
     }
   ]
 }

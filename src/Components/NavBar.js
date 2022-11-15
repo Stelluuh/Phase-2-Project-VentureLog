@@ -8,7 +8,7 @@ function NavBar() {
             <nav>
                 <NavLink exact to="/">Home</NavLink>
                 <NavLink to="/entries">Entries</NavLink>
-                <NavLink to="/new_entry">New Entry</NavLink>
+                <NavLink to="/entries/new">New Entry</NavLink>
             </nav>
         </div>
     

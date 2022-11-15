@@ -14,7 +14,7 @@ function App() {
       <NavBar />
 
       <Switch>
-        <Route path="/new_entry">
+        <Route path="/entries/new">
           <NewEntry/>
         </Route>
         
