@@ -4,12 +4,11 @@ import '../stylesheets/EntryDetails.css'
 
 function EntryDetails() {
     const [entry, setEntry] = useState('')
-    const params = useParams() // when called, it will return a params object. We could also destructure and write it as:
-    //const { id } = useParams() and in fetch, instead of params.id, we cna just write id.
+    const params = useParams() 
     
     
     useEffect(() => {
-        fetch(`http://localhost:3001/entries/${params.id}`) // here we are fetching the entry information based on this id.
+        fetch(`http://localhost:3001/entries/${params.id}`) 
         .then(res => res.json())
         .then(data => setEntry(data))
     }, [params.id])  
